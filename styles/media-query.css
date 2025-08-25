@@ -82,7 +82,7 @@
 
     #login {
         width: 850px;
-        height: 500px;
+        height: 510px;
     }
 
     #image {
@@ -122,8 +122,9 @@
         margin: 15px 0px;
     }
 
-        #buttons {
+    #buttons {
         margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     #enterBtn {
