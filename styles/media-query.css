@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    body{
+
+    /* tabled */
+    body {
         background-image: linear-gradient(to top, #1C1C23, #621492);
     }
 
@@ -10,38 +12,84 @@
     }
 
     #image {
-        float: left;
+        float: right;
         background-position: center center;
         height: 100%;
 
     }
 
-    form {
-        float: right;
-        width: 60%;
+    #welcTxt h1 {
+        margin-top: 15px;
+        font-size: 2.3em;
     }
+
+    #welcTxt {
+        font-size: 1em;
+        margin-bottom: 30px;
+    }
+    
+    #welcTxt #welcome {
+    padding-top: 45px;
+    }
+
+    p {
+    line-height: 2em;
+    }
+
+    .details {
+    margin-left: 40px;
+
+    font-size: 0.80em;
+    line-height: 2em;
+    border: #1C1C23;
+}
+
+    form {
+    margin-top: 30px;
+    
+    }
+
+/*     form {
+        float: left;
+        margin-top: -100px;
+    } */
+
+    #enterBtn {
+    width: 30vw;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#forgotBtn {
+    width: 30vw;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+}
 }
 
 @media screen and (min-width: 992px) {
-    body{
+    body {
         background-image: linear-gradient(to top, #1C1C23, #621492);
     }
-    #login{
+
+    #login {
         width: 900px;
     }
 
     #image {
-        float: left;
+        float: right;
         background-position: center center;
         height: 100%;
         width: 50%;
 
     }
 
-        form {
-        float: right;
+    form {
+        float: left;
         width: 50%;
         height: 100%;
     }
 }
-
