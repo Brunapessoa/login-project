@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Screen</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <main>
         <section id="login">
             <div id="image">
                 <!-- imagem nas CSS -->
             </div>
-            <div id="form">
+            <div id="welcTxt">
                 <h1>Login</h1>
                 <p id="welcome">Welcome back!</p>
                 <p>Enter your details to log in: </p>
-                <form action="login.js" method="post"></form>
             </div>
+            <form action="login.js" method="post">
+                <p class="details">
+                    <label for="idEmail">Email: </label><br>
+                    <input type="email" name="email" id="idEmail">
+                </p>
+                <p class="details">
+                    <label for="idPass">Password: </label><br>
+                    <input type="password" name="" id="idPass">
+                </p>
+                <p id="buttons">
+                    <input type="submit" value="Enter" id="enterBtn">
+                    <input type="button" value="Forgot my pass" id="forgotBtn">
+                </p>
+            </form>
         </section>
     </main>
     <script>
-
     </script>
 </body>
+
 </html>
