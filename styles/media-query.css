@@ -8,66 +8,71 @@
     }
 
     #login {
-        width: 75vw;
+        width: 70vw;
+        height: 600px;
     }
 
     #image {
         float: right;
         background-position: center center;
         height: 100%;
-
+        width: 50%;
     }
 
-    #welcTxt h1 {
-        margin-top: 15px;
-        font-size: 2.3em;
+    h1 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 2.6em;
     }
 
     #welcTxt {
-        font-size: 1em;
-        margin-bottom: 30px;
-    }
-    
-    #welcTxt #welcome {
-    padding-top: 45px;
+        font-size: 1.12em;
+        margin: 35px;
     }
 
     p {
-    line-height: 2em;
+        line-height: 1.8em;
     }
 
     .details {
-    margin-left: 40px;
+        margin-left: 50px;
 
-    font-size: 0.80em;
-    line-height: 2em;
-    border: #1C1C23;
-}
-
-    form {
-    margin-top: 30px;
-    
+        font-size: 0.9em;
+        line-height: 1.4em;
+        border: #1C1C23;
     }
 
-/*     form {
+    form {
+        margin: 30px 0px;
+    }
+
+    /*     form {
         float: left;
         margin-top: -100px;
     } */
 
-    #enterBtn {
-    width: 30vw;
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    padding: 5px;
-}
+    #buttons {
+        margin-top: 30px;
+    }
 
-#forgotBtn {
-    width: 30vw;
-    margin: auto;
-    margin-top: 25px;
-    padding: 5px;
-}
+    #enterBtn {
+        font-size: 0.9em;
+        min-width: 20vw;
+        max-width: 250px;
+        margin: auto;
+        margin-top: 30px;
+        padding: 5px;
+    }
+
+    #forgotBtn {
+        font-size: 0.9em;
+        min-width: 20vw;
+        max-width: 250px;
+        margin: auto;
+        margin-top: 20px;
+        padding: 5px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -76,7 +81,8 @@
     }
 
     #login {
-        width: 900px;
+        width: 850px;
+        height: 500px;
     }
 
     #image {
@@ -84,12 +90,55 @@
         background-position: center center;
         height: 100%;
         width: 50%;
-
     }
+
+    h1 {
+        margin-top: 45px;
+        margin-bottom: 35px;
+        text-align: center;
+        font-size: 2.8em;
+    }
+
+    #welcTxt {
+        font-size: 1.12em;
+        margin-left: 35px;
+    }
+
+    p {
+        line-height: 1.8em;
+    }
+
+    .details {
+        margin-left: 50px;
+
+        font-size: 1em;
+        line-height: 1.4em;
+     }
 
     form {
         float: left;
         width: 50%;
         height: 100%;
+        margin: 15px 0px;
+    }
+
+        #buttons {
+        margin-top: 30px;
+    }
+
+    #enterBtn {
+        font-size: 1em;
+        width: 290px;
+        margin: auto;
+        margin-top: 30px;
+        padding: 5px;
+    }
+
+    #forgotBtn {
+        font-size: 1em;
+        width: 290px;
+        margin: auto;
+        margin-top: 20px;
+        padding: 5px;
     }
 }
