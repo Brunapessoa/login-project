@@ -20,14 +20,16 @@
                 <p>Welcome back!</p>
                 <p>Enter your details to log in: </p>
             </div>
-            <form action="login.js" method="post">
+            <form action="login.js" method="post" autocomplete="on">
                 <p class="details">
                     <label for="idEmail">Email: </label><br>
-                    <input type="email" name="email" id="idEmail">
+                    <input type="email" name="email" id="idEmail" placeholder="Your email" required
+                        autocomplete="email" maxlength="30">
                 </p>
                 <p class="details">
                     <label for="idPass">Password: </label><br>
-                    <input type="password" name="" id="idPass">
+                    <input type="password" name="" id="idPass" placeholder="Your password" required
+                        autocomplete="current-password" minlength="5" max="10">
                 </p>
                 <p id="buttons">
                     <input type="submit" value="Enter" id="enterBtn">
@@ -36,8 +38,7 @@
             </form>
         </section>
     </main>
-    <script>
-    </script>
+    <script src="login.js"></script>
 </body>
 
 </html>

@@ -49,7 +49,7 @@ main {
 
 h1 {
     text-align: center;
-    margin: 10px;
+    margin: 15px;
     color: #005875;
     font-size: 1.8em;
 }
@@ -73,7 +73,7 @@ p {
 }
 
 .details input {
-    padding: 1px;
+    padding: 2px;
 }
 
 #buttons {
@@ -83,12 +83,13 @@ p {
 #enterBtn {
     display: block;
     background-color: #e071a9;
-    border-color: #e071a9;
+    border-color: #e071a85d;
     width: 240px;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 10px;
-    padding: 2px;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 #enterBtn:hover{
@@ -99,11 +100,12 @@ p {
 #forgotBtn {
     display: block;
     background-color: #e071a875;
-    border-color: #e071a815;
+    border-color: #e071a827;
     width: 240px;
     margin: auto;
     margin-top: 15px;
-    padding: 2px;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 #forgotBtn:hover {
