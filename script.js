@@ -13,7 +13,7 @@ forgotPass.addEventListener('click', openModal);
 
 function openModal() {
     modalForgotPass.style.display = 'block';
-    modalForgotPass.innerHTML = '<button type="button" id="closeBtn">X</button><p>Enter your e-mail to reset yout password</p><label for="emailModal"></label><input type="email" name="email" id="emailModal" placeholder="Your email" required autocomplete="email" maxlength="30"><br><button type="submit" value="Send" id="sendBtn">Send</button>';
+    modalForgotPass.innerHTML = '<button type="button" id="closeBtn">X</button><p>Enter your email to reset your password</p><label for="emailModal"></label><input type="email" name="email" id="emailModal" placeholder="Your email" required autocomplete="email" maxlength="30"><br><button type="submit" value="Send" id="sendBtn">Send</button>';
     
     const closeModal = document.getElementById('closeBtn');
     const formModal = document.getElementById('formModal')
