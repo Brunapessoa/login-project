@@ -23,8 +23,8 @@
             <form method="post" autocomplete="on" id="formId">
                 <p class="details">
                     <label for="idEmail">Email: </label><br>
-                    <input type="email" name="email" id="idEmail" placeholder="Your email" required
-                        autocomplete="email" maxlength="30">
+                    <input type="email" name="email" id="idEmail" placeholder="Your email" required autocomplete="email"
+                        maxlength="30">
                 </p>
                 <p class="details">
                     <label for="idPass">Password: </label><br>
@@ -36,9 +36,23 @@
                     <input type="button" value="Forgot my pass" id="forgotBtn">
                 </p>
             </form>
+            <form id="formModal">
+                <div id="modalForgotPass">
+                    <!-- elementos criados no JS: 
+
+                    <button type="button" id="closeBtn">X</button>
+                    <p>Type your e-mail to password redefenition</p>
+                    <label for="emailModal"></label>
+                    <input type="email" name="email" id="emailModal" placeholder="Your email" required
+                        autocomplete="email" maxlength="30"><br>
+                    <button type="submit" value="Send" id="sendBtn">Send</button> 
+                    
+                    -->
+                </div>
+            </form>
         </section>
     </main>
-    <script src="login.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
